@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 4.unity
+    guid: 1c33bf53f23274f258ca330b3cf2d543
+  - enabled: 1
+    path: Assets/Scenes/Beginning.unity
+    guid: 16398254c3fda4c8fb2b5a51935c1035
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: c1e23a2cde66540aea517d35189c7944
+  - enabled: 1
+    path: Assets/Scenes/GameScene1.unity
+    guid: 9f798b776842a4b36b06e8a51808b2a1
+  - enabled: 1
+    path: Assets/Scenes/AfterInvaders.unity
+    guid: 82e84c34e90e343749331e66b3dc9415
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 2.unity
+    guid: 25cd85ba3d2314d6dbe7ef9aeaa8a201
+  - enabled: 1
+    path: Assets/Scenes/GameScene2.unity
+    guid: 34c1173b5d22545ed9d89c29abbea8a6
+  - enabled: 1
+    path: Assets/Scenes/AfterSnake.unity
+    guid: e32a594308a34484684e08e367a5b27b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 3.unity
+    guid: a56ded9fb8264420e830629e6f5f9b4d
+  - enabled: 1
+    path: Assets/Scenes/GameScene3.unity
+    guid: 143589467e4524b66bb28ec8e3441fe9
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 4430df7a76cf441cb9668bf469aaaf81
+  m_configObjects: {}

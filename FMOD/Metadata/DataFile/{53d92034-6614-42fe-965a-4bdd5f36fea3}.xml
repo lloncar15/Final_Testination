@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{53d92034-6614-42fe-965a-4bdd5f36fea3}">
+		<property name="assetPath">
+			<value>DialogueSFX/ahahahaha.m4a</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5e26ab8a-49f6-4ac3-9a14-2c841ab612f3}</destination>
+		</relationship>
+	</object>
+</objects>

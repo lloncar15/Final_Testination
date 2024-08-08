@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2a5a7864-2060-4170-8ab6-e829f71b8254}">
+		<property name="name">
+			<value>Narration-Chill</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2b184f49-3ecb-4134-a248-e08e21bda2a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3f6d0fa4-baa5-4584-80fd-489f9145dfba}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3f6d0fa4-baa5-4584-80fd-489f9145dfba}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

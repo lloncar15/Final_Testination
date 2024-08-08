@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{40590e7c-c661-40c3-bfc8-55835a63b0e6}">
+		<property name="assetPath">
+			<value>DialogueSFX/LaughFemaleEvil.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3583673469387756</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5e26ab8a-49f6-4ac3-9a14-2c841ab612f3}</destination>
+		</relationship>
+	</object>
+</objects>

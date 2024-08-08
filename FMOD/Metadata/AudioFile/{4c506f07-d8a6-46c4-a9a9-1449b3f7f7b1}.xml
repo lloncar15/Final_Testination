@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4c506f07-d8a6-46c4-a9a9-1449b3f7f7b1}">
+		<property name="assetPath">
+			<value>Game2-Voice/Tips/vo-tips-helper1-so-the-word-is.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3510204081632655</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5e26ab8a-49f6-4ac3-9a14-2c841ab612f3}</destination>
+		</relationship>
+	</object>
+</objects>

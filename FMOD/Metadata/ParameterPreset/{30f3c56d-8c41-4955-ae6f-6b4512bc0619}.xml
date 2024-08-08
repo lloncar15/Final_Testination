@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{30f3c56d-8c41-4955-ae6f-6b4512bc0619}">
+		<property name="name">
+			<value>KDNP</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2b184f49-3ecb-4134-a248-e08e21bda2a8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c5d648b4-a9d8-4125-9ba4-663b2e7ffedb}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c5d648b4-a9d8-4125-9ba4-663b2e7ffedb}">
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

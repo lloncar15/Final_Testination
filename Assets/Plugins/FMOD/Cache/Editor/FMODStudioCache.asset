@@ -1,0 +1,1484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8246031339325944906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-invaders-hit-alien
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-invaders-hit-alien
+  Guid:
+    Data1: 1879073522
+    Data2: 1119702083
+    Data3: 1078117563
+    Data4: 1934356647
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 257
+--- !u!114 &-7537896416352916215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-cluster
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-cluster
+  Guid:
+    Data1: 168621200
+    Data2: 1317294921
+    Data3: -172770391
+    Data4: -1866512038
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7504146846605355466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-invaders-shoot
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-invaders-shoot
+  Guid:
+    Data1: 146187051
+    Data2: 1086544746
+    Data3: -1280280945
+    Data4: 1670920535
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7145724096126268801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-pray-prey
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-pray-prey
+  Guid:
+    Data1: -28771514
+    Data2: 1074862260
+    Data3: 1125781161
+    Data4: -991467938
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6797766487187311245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM-narration/Narration-Chill
+  m_EditorClassIdentifier: 
+  Name: Narration-Chill
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2825370823
+    data2: 3994933065
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6513668986626601231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638020787110900000
+  FileSizes:
+  - Name: Desktop
+    Value: 8802848
+  Exists: 1
+--- !u!114 &-6290005263179194571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-first-word
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-first-word
+  Guid:
+    Data1: 1722544323
+    Data2: 1295332605
+    Data3: -1724933441
+    Data4: -1022789713
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6007310001152175216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-boobs
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-boobs
+  Guid:
+    Data1: 159297170
+    Data2: 1083613770
+    Data3: 1775823549
+    Data4: -1122560414
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5857623648225556753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM-Invaders
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM-Invaders
+  Guid:
+    Data1: -1014616467
+    Data2: 1082093795
+    Data3: 738872765
+    Data4: -554394995
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70060
+--- !u!114 &-4358553112611415520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/LaughFemaleEvil
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/LaughFemaleEvil
+  Guid:
+    Data1: 1747000144
+    Data2: 1092115322
+    Data3: -1190122834
+    Data4: 2003718915
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4346725438850543858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/Goat
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/Goat
+  Guid:
+    Data1: -1234591760
+    Data2: 1076648538
+    Data3: -1672388474
+    Data4: -2092620507
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1766
+--- !u!114 &-3501698569464340264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-advice
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-advice
+  Guid:
+    Data1: -211491624
+    Data2: 1075473081
+    Data3: -1603310412
+    Data4: 582001537
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2903139163920061943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/Rain
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/Rain
+  Guid:
+    Data1: 346934128
+    Data2: 1151386714
+    Data3: -913423946
+    Data4: -1159953805
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2838436507707191802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-bend
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-bend
+  Guid:
+    Data1: 1431800395
+    Data2: 1239036022
+    Data3: -122579283
+    Data4: -1785556746
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2596668064659634776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-advise
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-advise
+  Guid:
+    Data1: 1119394552
+    Data2: 1280250768
+    Data3: -1890873677
+    Data4: -414229294
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2302252476837100971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM-Invaders-hyped
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM-Invaders-hyped
+  Guid:
+    Data1: 917622323
+    Data2: 1136455925
+    Data3: -1160373882
+    Data4: -1194686252
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72594
+--- !u!114 &-1728562105077216574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/kdnp
+  m_EditorClassIdentifier: 
+  Path: event:/kdnp
+  Guid:
+    Data1: -210310744
+    Data2: 1075371086
+    Data3: 169393542
+    Data4: -1860503277
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 902118146791707699}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 94547
+--- !u!114 &-1592282235142961262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-win-A
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-win-A
+  Guid:
+    Data1: -1614602804
+    Data2: 1164154807
+    Data3: -789385586
+    Data4: -348895025
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1379567976662293698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-gosling
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-gosling
+  Guid:
+    Data1: -711611036
+    Data2: 1129747707
+    Data3: -729185870
+    Data4: -787191521
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-114056108325724378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-come
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-come
+  Guid:
+    Data1: -731689482
+    Data2: 1143281446
+    Data3: -1326087030
+    Data4: 887658537
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6257725144491643591}
+  - {fileID: -6513668986626601231}
+  EditorEvents:
+  - {fileID: 6896139889118198098}
+  - {fileID: 589270463121185617}
+  - {fileID: 7361924103087367586}
+  - {fileID: -7504146846605355466}
+  - {fileID: -2302252476837100971}
+  - {fileID: 8844693803551515086}
+  - {fileID: 701411565716809203}
+  - {fileID: 4243294229750793823}
+  - {fileID: 6107320257152233181}
+  - {fileID: 2166978719974580373}
+  - {fileID: -7145724096126268801}
+  - {fileID: -2838436507707191802}
+  - {fileID: 3932526898170419592}
+  - {fileID: 6007832883918713307}
+  - {fileID: 3053290468184369819}
+  - {fileID: 3535285374159039437}
+  - {fileID: -1379567976662293698}
+  - {fileID: -5857623648225556753}
+  - {fileID: 5210401831076209057}
+  - {fileID: 7083795613923850521}
+  - {fileID: -7537896416352916215}
+  - {fileID: -6007310001152175216}
+  - {fileID: 5726774988559878286}
+  - {fileID: -1728562105077216574}
+  - {fileID: 3507433372930163645}
+  - {fileID: -6290005263179194571}
+  - {fileID: 287594165155580237}
+  - {fileID: 7448386997907307463}
+  - {fileID: -1592282235142961262}
+  - {fileID: -3501698569464340264}
+  - {fileID: 3403194701747195278}
+  - {fileID: 4394943763842705995}
+  - {fileID: 9044999096352010016}
+  - {fileID: -8246031339325944906}
+  - {fileID: -114056108325724378}
+  - {fileID: -2596668064659634776}
+  - {fileID: 343177587708409367}
+  - {fileID: 141664643965530119}
+  - {fileID: 6307903108076267645}
+  - {fileID: 8609868438785894397}
+  - {fileID: 7937538325252854440}
+  - {fileID: 2981442906383212280}
+  - {fileID: -4358553112611415520}
+  - {fileID: 6412236136803594745}
+  - {fileID: -2903139163920061943}
+  - {fileID: 6139219296940925799}
+  - {fileID: 2342011918257897412}
+  - {fileID: -4346725438850543858}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6513668986626601231}
+  StringsBanks:
+  - {fileID: 6257725144491643591}
+  cacheTime: 638020787110900000
+  cacheVersion: 131593
+--- !u!114 &141664643965530119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/Pub
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/Pub
+  Guid:
+    Data1: -1153762289
+    Data2: 1085394493
+    Data3: 1993559738
+    Data4: -1744047104
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &287594165155580237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-amoeba
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-amoeba
+  Guid:
+    Data1: 1171226053
+    Data2: 1123005895
+    Data3: -917641558
+    Data4: -1162722773
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &343177587708409367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx-click
+  m_EditorClassIdentifier: 
+  Path: event:/sfx-click
+  Guid:
+    Data1: 1260611569
+    Data2: 1086645232
+    Data3: 1938343094
+    Data4: 1782042273
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &589270463121185617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-pastor
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-pastor
+  Guid:
+    Data1: -2017115631
+    Data2: 1310158208
+    Data3: -521452897
+    Data4: -1173367241
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &701411565716809203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-win-B
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-win-B
+  Guid:
+    Data1: 1238596666
+    Data2: 1277102176
+    Data3: -1321288319
+    Data4: 1744721468
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &902118146791707699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/kdnp/KDNP
+  m_EditorClassIdentifier: 
+  Name: KDNP
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 1
+  ID:
+    data1: 883760203
+    data2: 3854838978
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2166978719974580373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-win-C
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-win-C
+  Guid:
+    Data1: -1796545979
+    Data2: 1092814894
+    Data3: -1011900485
+    Data4: -1269537804
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2342011918257897412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/Closing the Door
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/Closing the Door
+  Guid:
+    Data1: -303164701
+    Data2: 1203669040
+    Data3: 643364780
+    Data4: -1638789134
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2981442906383212280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/EnterSchool
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/EnterSchool
+  Guid:
+    Data1: -1325536461
+    Data2: 1197863142
+    Data3: -389703494
+    Data4: -522832214
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3053290468184369819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-number-correct
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-number-correct
+  Guid:
+    Data1: 69238618
+    Data2: 1228205123
+    Data3: 848795285
+    Data4: 1854841553
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3403194701747195278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM-narration
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM-narration
+  Guid:
+    Data1: 1914258909
+    Data2: 1251190493
+    Data3: -1815952227
+    Data4: -1256410089
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4846742213654170960}
+  - {fileID: -6797766487187311245}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 214560
+--- !u!114 &3507433372930163645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-invaders-alien-shoot
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-invaders-alien-shoot
+  Guid:
+    Data1: -2078571341
+    Data2: 1256554135
+    Data3: 1633719711
+    Data4: -1282276326
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3535285374159039437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-number-wrong
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-number-wrong
+  Guid:
+    Data1: 1253697626
+    Data2: 1164263399
+    Data3: 1236185744
+    Data4: 46635276
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3932526898170419592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-cevap
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-cevap
+  Guid:
+    Data1: -1458276781
+    Data2: 1249453157
+    Data3: 1854065282
+    Data4: 87437679
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4243294229750793823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-good-job
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-good-job
+  Guid:
+    Data1: -179223235
+    Data2: 1170688405
+    Data3: -923248242
+    Data4: -971581000
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4394943763842705995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-pijat-pjat
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-pijat-pjat
+  Guid:
+    Data1: 228755937
+    Data2: 1139212439
+    Data3: 1299803278
+    Data4: 1381537016
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4846742213654170960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM-narration/Narration-Scare
+  m_EditorClassIdentifier: 
+  Name: Narration-Scare
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1549492151
+    data2: 2924114984
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5210401831076209057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/SFX/sfx-snake-eat
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/SFX/sfx-snake-eat
+  Guid:
+    Data1: -410956924
+    Data2: 1178678338
+    Data3: 1722870919
+    Data4: -2028418957
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2327
+--- !u!114 &5726774988559878286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx-death
+  m_EditorClassIdentifier: 
+  Path: event:/sfx-death
+  Guid:
+    Data1: -1595223645
+    Data2: 1306339221
+    Data3: 2059097785
+    Data4: -1736171790
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2936
+--- !u!114 &6007832883918713307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-sracka
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-sracka
+  Guid:
+    Data1: -644797351
+    Data2: 1103343699
+    Data3: 2060768146
+    Data4: -2142968128
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6107320257152233181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game1/SFX/sfx-invaders-player-killed
+  m_EditorClassIdentifier: 
+  Path: event:/Game1/SFX/sfx-invaders-player-killed
+  Guid:
+    Data1: 1233876035
+    Data2: 1259579502
+    Data3: -1999585619
+    Data4: 302263
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6139219296940925799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/CInematicHitDeep
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/CInematicHitDeep
+  Guid:
+    Data1: -897653838
+    Data2: 1128236739
+    Data3: 301414299
+    Data4: -1852209584
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6257725144491643591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638020787110900000
+  FileSizes:
+  - Name: Desktop
+    Value: 3086
+  Exists: 1
+--- !u!114 &6307903108076267645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/1451_swoosh_park
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/1451_swoosh_park
+  Guid:
+    Data1: -1819868378
+    Data2: 1293555255
+    Data3: -387436123
+    Data4: 1764539525
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6412236136803594745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/TeacherApperars
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/TeacherApperars
+  Guid:
+    Data1: -12239006
+    Data2: 1120079360
+    Data3: 792698001
+    Data4: -1847422592
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5863
+--- !u!114 &6896139889118198098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Words/vo-words-krijes
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Words/vo-words-krijes
+  Guid:
+    Data1: 1132381710
+    Data2: 1078531674
+    Data3: 1696696453
+    Data4: -621841172
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7083795613923850521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-win-D
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-win-D
+  Guid:
+    Data1: 182631309
+    Data2: 1135275806
+    Data3: -308668500
+    Data4: 418582311
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7361924103087367586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-the-next-word-is
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-the-next-word-is
+  Guid:
+    Data1: -1469449697
+    Data2: 1299115309
+    Data3: -1683942474
+    Data4: -445495172
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7448386997907307463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-fail-F
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-fail-F
+  Guid:
+    Data1: 1325526985
+    Data2: 1132682166
+    Data3: -1581753459
+    Data4: -1889563806
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7937538325252854440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/ScreamFemale
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/ScreamFemale
+  Guid:
+    Data1: 1225172017
+    Data2: 1240200258
+    Data3: -1069818209
+    Data4: 828192443
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8609868438785894397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DialogueSFX/MunjeGromovi
+  m_EditorClassIdentifier: 
+  Path: event:/DialogueSFX/MunjeGromovi
+  Guid:
+    Data1: -151567321
+    Data2: 1329950090
+    Data3: -1174806902
+    Data4: 2049925966
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8844693803551515086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/Game2-136bpm-4beat
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/Game2-136bpm-4beat
+  Guid:
+    Data1: 1193066295
+    Data2: 1168459796
+    Data3: 1737420448
+    Data4: -1525364384
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125361
+--- !u!114 &9044999096352010016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game2/Voice/Tips/vo-tips-helper
+  m_EditorClassIdentifier: 
+  Path: event:/Game2/Voice/Tips/vo-tips-helper
+  Guid:
+    Data1: -1845108756
+    Data2: 1313666978
+    Data3: 585425041
+    Data4: 1761732245
+  Banks:
+  - {fileID: -6513668986626601231}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

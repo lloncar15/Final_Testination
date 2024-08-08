@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeaf038414ee94eabb0c95b273b0fed6, type: 3}
+  m_Name: Teacher3 IF A+
+  m_EditorClassIdentifier: 
+  npcName: Mrs. Cane
+  dialogueSentence: "No! This- this doesn\u2019t add up! "
+  NPCfontAsset: {fileID: 11400000, guid: 4a0a1bafa7c76441c9932093048fe80e, type: 2}
+  dialogueFontAsset: {fileID: 11400000, guid: 4a0a1bafa7c76441c9932093048fe80e, type: 2}
+  isScary: 1
+  isChill: 0
+  bgImageIndex: 11
+  SFXeventName: 

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeaf038414ee94eabb0c95b273b0fed6, type: 3}
+  m_Name: Billy0
+  m_EditorClassIdentifier: 
+  npcName: Billy
+  dialogueSentence: Hey guys! Long time no see...
+  NPCfontAsset: {fileID: 11400000, guid: 765332b2f7ee140269409578f4aa3c76, type: 2}
+  dialogueFontAsset: {fileID: 11400000, guid: 765332b2f7ee140269409578f4aa3c76, type: 2}
+  isScary: 0
+  isChill: 1
+  bgImageIndex: 1
